@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="/public/styles.css">
+
+  <!-- tailwind css -->
+  <link rel="stylesheet" href="/public/output.css">
+  
+  <title>Loopstudios landing page</title>
+
+</head>
+<body>
+
+  <header class="md:bg-desktop-hero  sm:bg-mobile-hero bg-cover bg-no-repeat md:py-16 tb:px-16 sm:py-8 sm:px-6 md:px-44 text-white md:pb-28 relative">
+
+    <!-- background overlay -->
+    <div class="absolute sm:hidden h-full w-full sm:-my-8 sm:-mx-6 bg-black md:-mx-44 tb:-mx-16 md:-my-16 opacity-40 -z-0"></div>
+    
+    <div class="relative">
+
+
+      <!-- desktop menu  -->
+            <div class="md:flex md:pb-32 sm:hidden">
+              <div class=""><a href="" class=""><img src="./images/logo.svg" alt=""></a></div>
+              <div class=" md:ml-auto py-2 tb:py-1">
+                <ul class="flex gap-x-7 font-Josefin tb:flex-wrap">
+                  <li><a class=" " href="">About</a></li>
+                  <li><a href="">Careers</a></li>
+                  <li><a href="">Events</a></li>
+                  <li><a href="">Products</a></li>
+                  <li><a href="">Support</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- mobile menu  -->
+            <div class=" md:hidden tb:hidden sm:relative  sm:-mx-6 sm:-my-8 sm:py-10 sm:px-8">
+              <div class="sm:w-1/2"><a href="" ><img class="sm:scale-90" src="./images/logo.svg" alt=""></a></div>
+              <div class=" md:ml-auto py-4 sm:py-10 sm:px-8 mobile-nav sm:bg-black sm:h-screen sm:absolute sm:top-0 sm:w-full sm:left-0 hidden">
+                <div class="sm:w-1/2"><a href="" ><img class="sm:scale-90" src="./images/logo.svg" alt=""></a></div>
+                <ul class="sm:block sm:text-3xl sm:mt-40 font-Josefin sm:font-light">
+                  <li class="sm:pb-6"><a class="" href="">ABOUT</a></li>
+                  <li class="sm:pb-6"><a href="">CAREERS</a></li>
+                  <li class="sm:pb-6"><a href="">EVENTS</a></li>
+                  <li class="sm:pb-6"><a href="">PRODUCTS</a></li>
+                  <li class="sm:pb-6"><a href="">SUPPORT</a></li>
+                </ul>
+              </div>
+              <div class="sm:absolute sm:cursor-pointer sm:right-8 sm:top-10">
+                <img class="hamburger " src="./images/icon-hamburger.svg" alt="icon-hamburger">
+                <img class="close hidden" src="./images/icon-close.svg" alt="close">
+              </div>
+            </div>
+            <div class="sm:my-52">
+              <h1 class="md:text-7xl tb:text-6xl sm:text-5xl font-Josefin font-light border-white border-solid border-2  md:p-11 sm:p-5 md:w-7/12 tb:w-4/6">IMMERSIVE EXPERIENCES THAT DELIVER</h1
+            </div>
+
+    </div>
+  </header>
+
+  <!-- main section -->
+  <main class="md:py-40 md:px-36 tb:px-16 sm:py-32 sm:px-8">
+
+    <section>
+      <div class="md:flex ">
+        <div class="  relative">
+          <!-- white rectangle -->
+          <div class="md:absolute rectangle md:bg-white md:right-0 md:bottom-0"></div>
+          <img class="md: desktop-interactive-img sm:hidden" src="./images/desktop/image-interactive.jpg" alt="interactive">
+          <img class="md:hidden" src="./images/mobile/image-interactive.jpg" alt="">
+        </div>
+
+        <div class="md:w-1/2  md:mt-auto md:-ml-20 tb:-ml-36 sm:my-16 font-Josefin relative sm:text-center">
+          <h2 class=" md:text-6xl tb:text-4xl sm:text-4xl font-light pb-8">THE LEADER IN INTERACTIVE VR</h2>
+          <p class="interactive-paragraph font-medium tb:text-sm sm:px-11 ">Founded in 2011, Loopstudios has been producing world-class virtual reality 
+          projects for some of the best companies around the globe. Our award-winning 
+          creations have transformed businesses through digital experiences that bind 
+          to their brand.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="md:mt-40 md:flex md:mb-28 sm:mt-24 sm:text-center sm:mb-12">
+      <div>
+        <h2 class="font-Josefine md:text-5xl tb:text-4xl sm:text-4xl font-light">OUR CREATIONS</h2>
+      </div>
+      <div class="md:ml-auto sm:hidden">
+        <button class="font-Josefin hover:bg-black hover:text-white transition delay-200 border-black border-2 py-2 tb:py-1 tb:px-5 px-10">
+          SEE ALL
+        </button>
+      </div>
+    </section>
+
+
+    <!-- desktop gallery -->
+    <section class="">
+      <div>
+
+        <div class="md:flex tb:flex-wrap md:justify-evenly md:mb-8 tb:mb-0">
+
+              <div class="relative  text-white hover:text-black  hover:cursor-pointer sm:mb-8 tb:mb-8">
+                <!-- background overlay -->
+              <div class="absolute h-full w-full bg-black  hover:bg-white hover:opacity-40 opacity-40 -z-0"></div>
+              <img class="sm:hidden" src="./images/desktop/image-deep-earth.jpg" alt="image-deep-earth">
+              <img class="md:hidden" src="./images/mobile/image-deep-earth.jpg" alt="image-deep-earth">
+              <h3 class=" sm:text-3xl md:text-4xl   pr-8 font-light font-Josefin sm:w-2/12 sm:leading-7 absolute z-10 bottom-8 sm:bottom-5 sm:left-5 left-8"> DEEP EARTH</h3>
+            </div>
+
+            <div class="relative  text-white hover:text-black  hover:cursor-pointer tb:mb-8 sm:mb-8">
+                <!-- background overlay -->
+              <div class="absolute h-full w-full bg-black  hover:bg-white hover:opacity-40 opacity-40 -z-0"></div>
+              <img class="sm:hidden" src="./images/desktop/image-night-arcade.jpg" alt="Night">
+              <img class="md:hidden" src="./images/mobile/image-night-arcade.jpg" alt="Night">
+              <h3 class=" sm:text-3xl md:text-4xl   pr-8 font-light font-Josefin sm:w-2/12 sm:leading-7 absolute z-10 bottom-8 sm:bottom-5 sm:left-5 left-8"> NIGHT ARCADE</h3>
+            </div>
+
+            <div class="relative  text-white hover:text-black  hover:cursor-pointer tb:mb-8 sm:mb-8">
+                <!-- background overlay -->
+              <div class="absolute h-full w-full bg-black  hover:bg-white hover:opacity-40 opacity-40 -z-0"></div>
+              <img class="sm:hidden" src="./images/desktop/image-soccer-team.jpg" alt="image-deep-earth">
+              <img class="md:hidden" src="./images/mobile/image-soccer-team.jpg" alt="">
+              <h3 class=" sm:text-3xl md:text-4xl   pr-8 font-light font-Josefin sm:w-1/2 sm:leading-7 absolute z-10 bottom-8 sm:bottom-5 sm:left-5 left-8">SOCCER TEAM VR</h3>
+            </div>
+
+            <div class="relative text-white hover:text-black  hover:cursor-pointer tb:mb-8 sm:mb-8">
+                <!-- background overlay -->
+              <div class="absolute  h-full w-full bg-black hover:bg-white hover:opacity-40  opacity-40 -z-0"></div>
+              <img class="sm:hidden" src="./images/desktop/image-grid.jpg" alt="image-deep-earth">
+              <img class="md:hidden" src="./images/mobile/image-grid.jpg" alt="GRID">
+              <h3 class="  sm:text-3xl md:text-4xl   pr-8 font-light font-Josefin sm:w-2/12 sm:leading-7 absolute z-10 bottom-8 sm:bottom-5 sm:left-5 left-8">THE GRID</h3>
+            </div>
+        </div>
+        
+
+
+        <div class="md:flex tb:flex-wrap md:justify-evenly">
+
+              <div class="relative  text-white hover:text-black  hover:cursor-pointer sm:mb-8 tb:mb-8">
+                  <!-- background overlay -->
+              <div class="absolute h-full w-full bg-black  hover:bg-white hover:opacity-40 opacity-40 -z-0"></div>
+              <img class="sm:hidden" src="./images/desktop/image-from-above.jpg" alt="image-deep-earth">
+              <img class="md:hidden" src="./images/mobile/image-from-above.jpg" alt="ABOVE">
+              <h3 class="  sm:text-3xl md:text-4xl   pr-8 font-light font-Josefin sm:w-1/2 sm:leading-7 absolute z-10 bottom-8 sm:bottom-5 sm:left-5 left-8">FROM UP ABOVE VR</h3>
+            </div>
+
+            <div class="relative  text-white hover:text-black  hover:cursor-pointer sm:mb-8 tb:mb-8">
+                <!-- background overlay -->
+              <div class="absolute h-full w-full bg-black  hover:bg-white hover:opacity-40 opacity-40 -z-0"></div>
+              <img class="sm:hidden" src="./images/desktop/image-pocket-borealis.jpg" alt="image-deep-earth">
+              <img class="md:hidden" src="./images/mobile/image-pocket-borealis.jpg" alt="POCKET">
+              <h3 class=" sm:text-3xl md:text-4xl   pr-8 font-light font-Josefin sm:w-2/12 sm:leading-7 absolute z-10 bottom-8 sm:bottom-5 sm:left-5 left-8">POCKET BOREALIS</h3>
+            </div>
+
+            <div class="relative  text-white hover:text-black  hover:cursor-pointer tb:mb-8 sm:mb-8 ">
+                <!-- background overlay -->
+              <div class="absolute h-full w-full bg-black  hover:bg-white hover:opacity-40 opacity-40 -z-0"></div>
+              <img class="sm:hidden" src="./images/desktop/image-curiosity.jpg" alt="image-deep-earth">
+              <img class="md:hidden" src="./images/mobile/image-curiosity.jpg" alt="image-curiosity">
+              <h3 class=" sm:text-3xl md:text-4xl   pr-8 font-light font-Josefin sm:w-2/12 sm:leading-7 absolute z-10 bottom-8 sm:bottom-5 sm:left-5 left-8">THE CURIOSITY</h3>
+            </div>
+
+            <div class="relative  text-white hover:text-black  hover:cursor-pointer tb:mb-8">
+                <!-- background overlay -->
+              <div class="absolute h-full w-full bg-black  hover:bg-white hover:opacity-40 opacity-40 -z-0"></div>
+              <img class="sm:hidden" src="./images/desktop/image-fisheye.jpg" alt="image-deep-earth">
+              <img class="md:hidden" src="./images/mobile/image-fisheye.jpg" alt="">
+              <h3 class=" sm:text-3xl md:text-4xl   pr-8 font-light font-Josefin sm:w-1/2 sm:leading-7 absolute z-10 bottom-8 sm:bottom-5 sm:left-5 left-8">MAKE IT FISHEYE</h3>
+        </div>
+        </div>
+        <div class="sm:text-center sm:mt-8 md:hidden">
+        <button class="font-Josefin hover:bg-black hover:text-white transition delay-200 border-black border-2 py-2 px-10">
+          SEE ALL
+        </button>
+      </div>
+        
+      </div>
+    </section>
+
+  </main>
+ 
+  <footer class="bg-black text-white md:py-8 tb:px-16 md:px-36 sm:py-8 sm:px-4">
+    <div class="md:flex">
+    <div class="">
+      <div><img class="sm:scale-75 sm:mx-auto sm:mb-7" src="./images/logo.svg" alt=""></div>
+      <div class="md:mt-6 sm:text-center">
+        <ul class="md:flex tb:flex-wrap gap-x-7 font-Josefin sm:mb-12">
+                  <li class="sm:pb-3"><a href="">About</a></li>
+                  <li class="sm:pb-3"><a href="">Careers</a></li>
+                  <li class="sm:pb-3"><a href="">Events</a></li>
+                  <li class="sm:pb-3"><a href="">Products</a></li>
+                  <li class="sm:pb-3"><a href="">Support</a></li>
+                </ul>
+      </div>
+    </div>
+    
+    <div class="md:ml-auto">
+      <div class="flex gap-x-4 justify-center">
+        <a href=""><img src="./images/icon-facebook.svg" alt="facebook"></a>
+        <a href=""><img src="./images/icon-twitter.svg" alt="twitter"></a>
+        <a href=""><img src="./images/icon-pinterest.svg" alt="pinterest"></a>
+        <a href=""><img src="./images/icon-instagram.svg" alt="instagram"></a>
+      </div>
+      <div class="mt-6 sm:text-center">
+        <p class="copyright">© 2021 Loopstudios. All rights reserved.</p>
+      </div>
+
+    </div>
+
+    </div>
+
+     <div class="text-center mt-12">
+    Challenge by <a class="text-red-400" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a class="text-red-400" href="https://www.frontendmentor.io/profile/covstar" target="_blank">Covstar</a>
+  </div>
+
+  </footer>
+
+
+
+  
+
+ 
+
+
+
+  <!-- javascript  -->
+        <!-- jquery and jquery-ui cdn -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="src/script.js"></script>
+</body>
+</html>
